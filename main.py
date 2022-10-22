@@ -16,7 +16,7 @@ def remove(string, i):
     return a + b
 
 # Driver Code
-if __name__ == '__main__'
+if __name__ == '__main__':
     string = str(input("enter the string"))
 
     # Remove nth index element
