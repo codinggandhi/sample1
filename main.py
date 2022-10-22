@@ -2,7 +2,7 @@
 # indexed character from a string
 
 # Removes character at index i
-def remove(string, i):
+def remove(string, k):
     # Characters before the i-th indexed
     # is stored in a variable a
     a = string[: i]
@@ -20,7 +20,7 @@ if __name__ == '__main__':
     string = str(input("enter the string"))
 
     # Remove nth index element
-    i = int(input("enter i'th number"))
+    k = int(input("enter i'th number "))
 
     # Print the new string
-    print(remove(string, i))
+    print(remove(string, k))
